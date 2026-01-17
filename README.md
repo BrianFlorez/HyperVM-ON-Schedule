@@ -9,6 +9,8 @@ Ideal for developers, sysadmins, and home lab enthusiasts who want to **balance 
 
 Step 1. Create the following powershell script in this location C:\Scripts\HyperV-Power-Automation.ps1
 
-Step 2. Automate with Task Scheduler to run the script from desired schedule.
+Step 2. Automate with Task Scheduler to run the script from desired schedule. Run Daily every 5 minutes.
+  
   Program: powershell.exe
+  
   Arguments:  -ExecutionPolicy Bypass "-FileC:\Scripts\HyperV-Power-Automation.ps1"
