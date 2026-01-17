@@ -13,4 +13,4 @@ Step 2. Automate with Task Scheduler to run the script from desired schedule. Ru
   
   Program: powershell.exe
   
-  Arguments:  -ExecutionPolicy Bypass "-FileC:\Scripts\HyperV-Power-Automation.ps1"
+  Arguments:  -ExecutionPolicy Bypass -File "C:\Scripts\HyperV-Power-Automation.ps1"
