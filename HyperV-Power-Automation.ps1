@@ -1,5 +1,5 @@
 # VM Name as listed in Hyper-V
-$VMName = "Ubuntu Web Server"
+$VMName = "Virtual Machine Name"
 # Time window
 $StartHour = 6
 $EndHour   = 23
@@ -62,4 +62,5 @@ function Ensure-VMState {
 # Main
 Ensure-VMState
 if (Is-Gaming) {powercfg /setactive $UltimateGUID}
+
 else { powercfg /setactive $PowerSaverGUID }
