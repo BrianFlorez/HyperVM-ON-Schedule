@@ -5,3 +5,9 @@
 - Detects gaming activity or high GPU usage and switches to **Ultimate Performance** for optimal performance.  
 - Lightweight, easy to configure, and extendable for multiple VMs or gaming processes.
 Ideal for developers, sysadmins, and home lab enthusiasts who want to **balance performance and energy efficiency**.
+
+
+Step 1. Create the following powershell script in this location C:\Scripts\HyperV-Power-Automation.ps1
+Step 2. Automate with Task Scheduler to run the script from desired schedule.
+  Program: powershell.exe
+  Arguments:  -ExecutionPolicy Bypass "-FileC:\Scripts\HyperV-Power-Automation.ps1"
